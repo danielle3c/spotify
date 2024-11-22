@@ -4,198 +4,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>spotify</title>
+    <title>Spotify</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="banner"></header>
-        <img src="img/images.jfif" alt="logo_spotify">
-        <img src="" alt="">
+    <header class="banner">
+        <img src="img/images.jfif" alt="Logo Spotify" class="logo">
         <div class="search-bar">
             <input type="text" placeholder="Buscar...">
         </div>
-        <img src="" alt="">
         <nav>
             <ul class="nav-links">
-                <li><a href="#">regristrarte</a></li>
+                <li><a href="#">Registrarte</a></li>
+                <li><button class="btn">Iniciar sesión</button></li>
             </ul>
         </nav>
-        <div class="icon-item">
-            <button class="btn">iniciar sesión</button>
-        </div>
+    </header>
 
-    <div class="pagina">
-        <div class="parte1">
-            <div class="bibloteca">
-            <img src=""alt="">
-            <h1> tu bibloteca</h1>
-            <div class="listas">
-                <h1>Crea tu primera lista</h1>
-                <p>Es muy facil,y te echeremos una mano</p>
-                <div class="btn-lista">
-                    <button class="btn">Crear lista</button>
+    <main class="pagina">
+        <section class="parte1">
+            <div class="biblioteca">
+                <h1>Tu Biblioteca</h1>
+                <div class="listas">
+                    <h2>Crea tu primera lista</h2>
+                    <p>Es muy fácil, y te echaremos una mano.</p>
+                    <div class="btn-lista">
+                        <button class="btn">Crear lista</button>
+                    </div>
                 </div>
                 <ul class="nav-legal">
-                    <li><a href="#">legal</a></li>
-                    <li><a href="#">Centro seguridad y privacidad</a></li>
-                    <li><a href="#">Politicas Privacidad</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Centro de seguridad y privacidad</a></li>
+                    <li><a href="#">Políticas de privacidad</a></li>
                     <li><a href="#">Cookies</a></li>
-                    <li><a href="#">Informacion Sobre Anuncios </a></li>
-                    <li><a href="#">Accessibilidad</a></li>
+                    <li><a href="#">Información sobre anuncios</a></li>
+                    <li><a href="#">Accesibilidad</a></li>
                 </ul>
-            </nav>
-            <div class="btn-español">
-                <button class="btn">Español de Español</button>
+                <div class="btn-espanol">
+                    <button class="btn">Español de España</button>
+                </div>
             </div>
+        </section>
+
+        <section class="parte2">
+            <div class="artistas">
+                <h1>Artistas populares</h1>
+                <div class="images_artista">
+                    <img src="img/maneskin.png" alt="Maneskin">
+                    <p>Maneskin</p>
+                </div>
+                <div class="images_artista">
+                    <img src="img/dannyocean.png" alt="Danny Ocean">
+                    <p>Danny Ocean</p>
+                </div>
+                <div class="images_artista">
+                    <img src="img/meltedicecream.png" alt="Melted Ice Cream">
+                    <p>Melted Ice Cream</p>
+                </div>
+                <div class="images_artista">
+                    <img src="img/duki.png" alt="Duki">
+                    <p>Duki</p>
+                </div>
+                <div class="images_artista">
+                    <img src="img/hatsunemiku.png" alt="Hatsune Miku">
+                    <p>Hatsune Miku</p>
+                </div>
             </div>
-        </div>
-        
-        </div>
+        </section>
 
-        <div class="parte2">
-        <section class="artistas">
-            <h1>Artistas populares</h1>
-            <div class="images_artista">
-                <img src="img/maneskin.png" alt="maneskin">
-                <p>Maneskin</p>
-                <h6>Artista</h6>
+        <section class="album">
+            <h2>Álbumes populares</h2>
+            <div class="albumnes">
+                <img src="img/arcane.png" alt="Arcane">
+                <p>Arcane</p>
             </div>
-            <div class="images_artista">
-                <img src="img/dannyocean.png" alt="dannyocean">
-                <p>Danny Ocean</p>
-                <h6>Artista</h6>
+            <div class="albumnes">
+                <img src="img/ameri.png" alt="Ameri">
+                <p>Ameri</p>
             </div>
-            <div class="images_artista">
-                <img src="img/meltedicecream.png" alt="meltedicecream">
-                <p>Melted Ice Cream</p>
-                <h6>Artista</h6>
+            <div class="albumnes">
+                <img src="img/conangray.png" alt="Conan Gray">
+                <p>Conan Gray</p>
             </div>
-            <div class="images_artista">
-                <img src="img/duki.png" alt="duki">
-                <p>Duki</p>
-                <h6>Artista</h6>
+            <div class="albumnes">
+                <img src="img/mothermother.png" alt="Mother Mother">
+                <p>Mother Mother</p>
             </div>
-            <div class="images_artista"></div>
-            <img src="img/hatsunemiku.png" alt="hatsunemiku">
-            <p>Hatsune Miku</p>
-            <h6>Artista</h6>
-    </div>
-    <div class="images_artista"></div>
-    <img src="img/callejo.png" alt="callejo">
-    </div>
-    </section>
+        </section>
 
-    <section class="album">
-        <h2>Álbumes populares</h2>
-        <div class="albumnes">
-            <img src="img/arcane.png" alt="arcane">
-            <p>Arcane</p>
-        </div>
+        <section class="emisoras">
+            <h2>Emisoras populares</h2>
+            <div class="img_emisoras">
+                <img src="img/emisorachayane.PNG" alt="Chayanne">
+                <p>Chayanne</p>
+            </div>
+        </section>
 
-        <div class="albumnes">
-            <img src="img/ameri.png" alt="ameri">
-            <p>Ameri</p>
-        </div>
-        <div class="albumnes">
-            <img src="img/conangray.png" alt="conangray">
-            <p>Conan Gray</p>
-        </div>
-        <div class="albumnes">
-            <img src="img/mothermother.png" alt="mothermother">
-            <p>Mother Mother</p>
-        </div>
-        <div class="albumnes">
-            <img src="img/khea.png" alt="khea">
-            <p>Khea</p>
-        </div>
-        <div class="albumnes">
-            <img src="img/thefrontbottoms.png" alt="thefrontbottoms">
-            <p>The Front Bottoms</p>
-        </div>
-    </section>
+        <section class="listas-seleccionadas">
+            <h2>Listas seleccionadas</h2>
+            <div class="listas">
+                <img src="img/lista1.png" alt="Lista 1">
+            </div>
+            <div class="listas">
+                <img src="img/lista2.png" alt="Lista 2">
+            </div>
+        </section>
 
-<section class="Emisoras">
-<h1>Emisoras populares</h1>
-<div class="img_emisoras"></div>
-<img src="img/emisorachayane.PNG" alt="chayane">
-</div>
-
-<div class="img_emisoras"></div>
-<img src="" alt="">
-</div>
-
-<div class="img_emisoras"></div>
-<img src="" alt="">
-</div>
-
-<div class="img_emisoras"></div>
-<img src="" alt="">
-</div>
-
-<div class="img_emisoras"></div>
-<img src="" alt="">
-</div>
-<div class="img_emisoras"></div>
-<img src="" alt="">
-</div>
-</section>
-
-<section class="Listasseleccionadas">
-    <h1>Listas seleccionadas</h1>
-    <div class="listas">
-        <img src="" alt="">
-    </div>
-
-    <div class="listas">
-        <img src="" alt="">
-    </div>
-
-    <div class="listas">
-        <img src="" alt="">
-    </div>
-
-    <div class="listas">
-        <img src="" alt="">
-    </div>
-
-    <div class="listas">
-        <img src="" alt="">
-    </div>
-
-    <div class="listas">
-        <img src="" alt="">
-    </div>
-</section>
-
-<section class="Playlists ">
-    <h1>Playlists from our Editors</h1>
-    <div class="Editors">
-        <img src="" alt="">
-    </div>
-
-    <div class="Editors">
-        <img src="" alt="">
-    </div>
-
-    <div class="Editors">
-        <img src="" alt="">
-    </div>
-
-    <div class="Editors">
-        <img src="" alt="">
-    </div>
-
-    <div class="Editors">
-        <img src="" alt="">
-    </div>
-
-    <div class="Editors">
-        <img src="" alt="">
-    </div>
-</section>
-</div>ok
-    </div>
+        <section class="playlists">
+            <h2>Playlists from our Editors</h2>
+            <div class="editors">
+                <img src="img/editor1.png" alt="Editor 1">
+            </div>
+            <div class="editors">
+                <img src="img/editor2.png" alt="Editor 2">
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

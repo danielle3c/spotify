@@ -13,6 +13,21 @@
     
 }
 
+h1{
+    color: #fff;
+}
+
+h2{
+    color: #fff;
+}
+
+p{
+    color: rgb(155, 155, 155);
+}
+
+
+/*footer*/
+
 .footer {
     background-color: #121212;
     color: #fff;

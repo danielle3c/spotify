@@ -23,19 +23,44 @@
 }
 
 
+.artistas img{
+    width: 150px;
+    border-radius: 5px;
+}
 
 
+.album{
+color: aqua;
+}
 
 
+.albumnes{
+    width: 50px;
+}
 
+.Emisoras{
+    color: aqua;
+}
 
+.img_emisoras{
+    width: 50px;
+}
 
+.listas-seleccionadas{
+    color: aqua;
+}
 
+.listas{
+    width: 50px;
+}
 
+.playlists{
+    color: aqua;
+}
 
-
-
-
+.editors{
+    width: 50px;
+}
 
 
 

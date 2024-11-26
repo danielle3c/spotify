@@ -11,6 +11,7 @@
 
 .banner{
 
+
 }
 
 
@@ -58,10 +59,9 @@
 }
 
 .footer-section ul li a:hover {
-    color: #ffffff; /* Verde de Spotify */
+    color: #ffffff;
 }
 
-/* Estilo para los iconos sociales */
 .footer-social {
     display: flex;
     justify-content: flex-start;
@@ -78,7 +78,7 @@
     opacity: 0.7;
 }
 
-/* Media query para pantallas pequeñas */
+
 @media (max-width: 768px) {
     .footer-social {
         justify-content: center;

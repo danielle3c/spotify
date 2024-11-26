@@ -11,9 +11,21 @@
 
 .parte2{
     background-color: #121212;
-    display: flex;
-    
+    display: flex; 
+    align-items: baseline;  
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     background-color: #121212;

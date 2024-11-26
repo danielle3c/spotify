@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    background-color: #121212;
+    
 }
 
 .pagina {
@@ -26,6 +28,11 @@
 .artistas img{
     width: 150px;
     border-radius: 5px;
+}
+
+.images_artista{
+    display: flex;
+    align-items: baseline;
 }
 
 
@@ -60,6 +67,7 @@ color: aqua;
 
 .editors{
     width: 50px;
+    border-radius: 50px;
 }
 
 

@@ -6,14 +6,23 @@
 }
 
 .pagina {
-    
-    
-    
     background-color: #121212;
-    
 }
 
+.banner{
+
+}
+
+
+.parte1{
+
+}
+
+
+
+
 .footer {
+    background-color: #121212;
     color: #fff;
     padding: 20px 0;
     display: flex;
